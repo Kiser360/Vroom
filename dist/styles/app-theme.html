@@ -1,13 +1,3 @@
-<!--
-@license
-Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
-
 <style is="custom-style">
 
   /*
@@ -22,13 +12,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   /* Application theme */
 
   :root {
-    --dark-primary-color: #5D7000;
-    --default-primary-color: #CEF900;
-    --light-primary-color: #D9FC2E;
-    --text-primary-color: #393939; /*text/icons*/
-    --accent-color: #FD0013;
-    --primary-background-color: #222224;
-    --secondary-background-color: #3F4146;
+    --dark-primary-color: #303F9F;
+    --default-primary-color: #3F51B5;
+    --light-primary-color: #C5CAE9;
+    --text-primary-color: #ffffff; /*text/icons*/
+    --accent-color: #FF4081;
+    --primary-background-color: #c5cae9;
     --primary-text-color: #212121;
     --secondary-text-color: #727272;
     --disabled-text-color: #bdbdbd;
@@ -37,13 +26,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     /* Components */
 
     /* paper-drawer-panel */
-    --drawer-menu-color: var(--secondary-background-color);
+    --drawer-menu-color: #ffffff;
     --drawer-border-color: 1px solid #ccc;
     --drawer-toolbar-border-color: 1px solid rgba(0, 0, 0, 0.22);
 
     /* paper-menu */
-    --paper-menu-background-color: #333;
-    --menu-link-color: #fff;
+    --paper-menu-background-color: #fff;
+    --menu-link-color: #111111;
   }
 
   /* General styles */
@@ -64,7 +53,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     padding: 16px 0 16px 0;
     width: calc(98.66% - 16px);
     margin: 16px auto;
-    background: var(--secondary-background-color);
+    background: white;
   }
 
   paper-menu iron-icon {
@@ -125,7 +114,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   /* Height of the scroll area */
   .content {
-    /*height: 900px;*/
+    height: 900px;
   }
 
   /* Breakpoints */
